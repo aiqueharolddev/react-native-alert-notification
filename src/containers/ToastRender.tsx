@@ -165,6 +165,10 @@ const __styles = (isDark: boolean) =>
       paddingHorizontal: 12,
       paddingTop: 12,
       paddingBottom: 12,
+      marginHorizontal: 16,
+      marginTop:25,
+      elevation: 20,
+      borderRadius: 12,
       backgroundColor: Color.get('card', isDark),
       ...Platform.select({
         ios: {
@@ -172,9 +176,9 @@ const __styles = (isDark: boolean) =>
           marginHorizontal: 12,
         },
         android: {
-          marginTop: 6,
-          marginHorizontal: 6,
-          borderRadius: 6,
+          marginTop: 26,
+          marginHorizontal: 16,
+          borderRadius: 12,
         },
       }),
     },
